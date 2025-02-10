@@ -4,4 +4,7 @@ Write a loop that goes from 1 to 100, but stops (using break) when it encounters
 
 for(let i = 1;i<=100;i++){
     console.log(i);
+    if(Math.sqrt(i)%1===0){
+        break;
+    }
 }
